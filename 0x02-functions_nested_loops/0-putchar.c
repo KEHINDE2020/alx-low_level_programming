@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
-*main-entry point*Return:0 (successful)
+*main-entry point
+*Return:0 (successful)
 */
 
 int main(void)
