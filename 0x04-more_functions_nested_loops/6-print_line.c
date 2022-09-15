@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * print_line - prints a line using the _ character
- * @n: Number of times to print '_' character
- *
- * Description: This function takes an integer as argument
- * and repeatedly prints the character '_' in order to
- * form a line on the screen.
- * Return: Void
+ * print_line - Draws a straight line using the character _.
+ * @n: The number of _ characters to be printed.
  */
 void print_line(int n)
 {
-	while (n > 0)
+	int len;
+
+	if (n > 0)
 	{
-		putchar('');
-		n--;
+		for (len = 0; len < n; len++)
+			putchar('');
 	}
+
 	_putchar('\n');
 }
