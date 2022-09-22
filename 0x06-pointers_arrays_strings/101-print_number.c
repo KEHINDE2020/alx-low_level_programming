@@ -6,7 +6,7 @@ void print_four_digits(int);
 
 /**
  * print_number - prints an integer to the screen
- * @n: One digit integer to print
+ * @n: Integer to be printed to the screen
  *
  * Return: void
  */
