@@ -1,0 +1,1 @@
+How to use arguments passed to your program, two prototypes of main and in which case do i use one or the otherHow to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
